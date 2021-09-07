@@ -1,0 +1,160 @@
+HTTP/1.1 200 OK
+Date: Mon, 06 Sep 2021 23:52:11 GMT
+Server: Apache/2.4.6 (CentOS)
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+
+<H3>Current Working Directory:</H3>
+/compsci/webdocs/hindle1/web_docs
+
+
+<H3>Command Line Arguments:</H3>
+
+['/compsci/webdocs/hindle1/web_docs/1.py']
+
+
+<H3>Form Contents:</H3>
+<DL>
+<DT>X: <i>&lt;type 'instance'&gt;</i>
+<DD>MiniFieldStorage('X', 'Y')
+</DL>
+
+
+<H3>Shell Environment:</H3>
+<DL>
+<DT> CONTENT_LENGTH <DD> 3
+<DT> CONTENT_TYPE <DD> application/x-www-form-urlencoded
+<DT> CONTEXT_DOCUMENT_ROOT <DD> /compsci/webdocs/hindle1/web_docs
+<DT> CONTEXT_PREFIX <DD> /~hindle1
+<DT> DOCUMENT_ROOT <DD> /var/www/html
+<DT> GATEWAY_INTERFACE <DD> CGI/1.1
+<DT> HTTPS <DD> on
+<DT> HTTP_ACCEPT <DD> */*
+<DT> HTTP_HOST <DD> webdocs.cs.ualberta.ca
+<DT> HTTP_USER_AGENT <DD> curl/7.64.1
+<DT> PATH <DD> /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin
+<DT> QUERY_STRING <DD>
+<DT> REMOTE_ADDR <DD> 68.151.209.196
+<DT> REMOTE_PORT <DD> 49955
+<DT> REQUEST_METHOD <DD> POST
+<DT> REQUEST_SCHEME <DD> https
+<DT> REQUEST_URI <DD> /~hindle1/1.py
+<DT> SCRIPT_FILENAME <DD> /compsci/webdocs/hindle1/web_docs/1.py
+<DT> SCRIPT_NAME <DD> /~hindle1/1.py
+<DT> SERVER_ADDR <DD> 129.128.243.190
+<DT> SERVER_ADMIN <DD> helpdesk@cs.ualberta.ca
+<DT> SERVER_NAME <DD> webdocs.cs.ualberta.ca
+<DT> SERVER_PORT <DD> 443
+<DT> SERVER_PROTOCOL <DD> HTTP/1.1
+<DT> SERVER_SIGNATURE <DD> &lt;address&gt;Apache/2.4.6 (CentOS) Server at webdocs.cs.ualberta.ca Port 443&lt;/address&gt;
+
+<DT> SERVER_SOFTWARE <DD> Apache/2.4.6 (CentOS)
+<DT> SSL_TLS_SNI <DD> webdocs.cs.ualberta.ca
+<DT> UNIQUE_ID <DD> YTapq@r6ZCBCZdMyiyx@WQAAAAk
+</DL>
+
+
+<H3>These environment variables could have been set:</H3>
+<UL>
+<LI>AUTH_TYPE
+<LI>CONTENT_LENGTH
+<LI>CONTENT_TYPE
+<LI>DATE_GMT
+<LI>DATE_LOCAL
+<LI>DOCUMENT_NAME
+<LI>DOCUMENT_ROOT
+<LI>DOCUMENT_URI
+<LI>GATEWAY_INTERFACE
+<LI>LAST_MODIFIED
+<LI>PATH
+<LI>PATH_INFO
+<LI>PATH_TRANSLATED
+<LI>QUERY_STRING
+<LI>REMOTE_ADDR
+<LI>REMOTE_HOST
+<LI>REMOTE_IDENT
+<LI>REMOTE_USER
+<LI>REQUEST_METHOD
+<LI>SCRIPT_NAME
+<LI>SERVER_NAME
+<LI>SERVER_PORT
+<LI>SERVER_PROTOCOL
+<LI>SERVER_ROOT
+<LI>SERVER_SOFTWARE
+</UL>
+In addition, HTTP headers sent by the server may be passed in the
+environment as well.  Here are some common variable names:
+<UL>
+<LI>HTTP_ACCEPT
+<LI>HTTP_CONNECTION
+<LI>HTTP_HOST
+<LI>HTTP_PRAGMA
+<LI>HTTP_REFERER
+<LI>HTTP_USER_AGENT
+</UL>
+
+<H3>What follows is a test, not an actual exception:</H3>
+
+<H3>Traceback (most recent call last):</H3>
+<PRE>  File "/usr/lib64/python2.7/cgi.py", line 904, in test
+    g()
+  File "/usr/lib64/python2.7/cgi.py", line 902, in g
+    f()
+  File "/usr/lib64/python2.7/cgi.py", line 900, in f
+    exec "testing print_exception() -- &lt;I&gt;italics?&lt;/I&gt;"
+  File "&lt;string&gt;", line 1
+    testing print_exception() -- &lt;I&gt;italics?&lt;/I&gt;
+                          ^
+<B>SyntaxError: invalid syntax
+</B></PRE>
+<H1>Second try with a small maxlen...</H1>
+
+<H3>Current Working Directory:</H3>
+/compsci/webdocs/hindle1/web_docs
+
+
+<H3>Command Line Arguments:</H3>
+
+['/compsci/webdocs/hindle1/web_docs/1.py']
+
+
+<H3>Form Contents:</H3>
+<P>No form fields.
+<DL>
+</DL>
+
+
+<H3>Shell Environment:</H3>
+<DL>
+<DT> CONTENT_LENGTH <DD> 3
+<DT> CONTENT_TYPE <DD> application/x-www-form-urlencoded
+<DT> CONTEXT_DOCUMENT_ROOT <DD> /compsci/webdocs/hindle1/web_docs
+<DT> CONTEXT_PREFIX <DD> /~hindle1
+<DT> DOCUMENT_ROOT <DD> /var/www/html
+<DT> GATEWAY_INTERFACE <DD> CGI/1.1
+<DT> HTTPS <DD> on
+<DT> HTTP_ACCEPT <DD> */*
+<DT> HTTP_HOST <DD> webdocs.cs.ualberta.ca
+<DT> HTTP_USER_AGENT <DD> curl/7.64.1
+<DT> PATH <DD> /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin
+<DT> QUERY_STRING <DD>
+<DT> REMOTE_ADDR <DD> 68.151.209.196
+<DT> REMOTE_PORT <DD> 49955
+<DT> REQUEST_METHOD <DD> POST
+<DT> REQUEST_SCHEME <DD> https
+<DT> REQUEST_URI <DD> /~hindle1/1.py
+<DT> SCRIPT_FILENAME <DD> /compsci/webdocs/hindle1/web_docs/1.py
+<DT> SCRIPT_NAME <DD> /~hindle1/1.py
+<DT> SERVER_ADDR <DD> 129.128.243.190
+<DT> SERVER_ADMIN <DD> helpdesk@cs.ualberta.ca
+<DT> SERVER_NAME <DD> webdocs.cs.ualberta.ca
+<DT> SERVER_PORT <DD> 443
+<DT> SERVER_PROTOCOL <DD> HTTP/1.1
+<DT> SERVER_SIGNATURE <DD> &lt;address&gt;Apache/2.4.6 (CentOS) Server at webdocs.cs.ualberta.ca Port 443&lt;/address&gt;
+
+<DT> SERVER_SOFTWARE <DD> Apache/2.4.6 (CentOS)
+<DT> SSL_TLS_SNI <DD> webdocs.cs.ualberta.ca
+<DT> UNIQUE_ID <DD> YTapq@r6ZCBCZdMyiyx@WQAAAAk
+</DL>
